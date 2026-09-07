@@ -24,6 +24,9 @@ export default function Home() {
 						Save and see your changes instantly.
 					</li>
 				</ol>
+				<p className="text-sm/6 text-center sm:text-left">
+					Welcome to the WWW Carsafe demo using Storyblok and Next.js!
+				</p>
 
 				<div className="flex gap-4 items-center flex-col sm:flex-row">
 					<a

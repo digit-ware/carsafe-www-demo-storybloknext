@@ -18,7 +18,7 @@ interface ButtonProps {
 }
 
 const BASE =
-  "inline-flex items-center gap-2.5 whitespace-nowrap text-[15px] font-bold transition-[background-color,border-color,color,transform] active:translate-y-px";
+  "inline-flex items-center gap-2 whitespace-nowrap text-[15px] font-bold transition-[background-color,border-color,color,transform] active:translate-y-px";
 
 /**
  * Explicit lookups — the full class names have to stay in source for Tailwind.

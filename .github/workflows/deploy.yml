@@ -31,5 +31,5 @@ jobs:
           # Inlined into the bundle at build time (next build). This is a
           # Storyblok preview token that ships to the browser by design (the
           # client StoryblokProvider needs it), so it lives in the workflow.
-          NEXT_PUBLIC_STORYBLOK_DELIVERY_API_TOKEN: 6S06sNhYb3YqOI35Gg5mvgtt
+          NEXT_PUBLIC_STORYBLOK_DELIVERY_API_TOKEN: ej5GqVZrLlLQ6MT1qtoOZwtt
           NEXT_PUBLIC_STORYBLOK_REGION: eu

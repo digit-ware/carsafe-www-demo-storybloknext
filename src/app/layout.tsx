@@ -26,6 +26,7 @@ interface RootLayoutProps {
  * Runs before first paint: applies the stored theme choice (or the OS
  * preference when there's none) so dark-mode users never see a light flash.
  * ThemeToggle takes over from there.
+ * 
  */
 const THEME_INIT_SCRIPT = `(function(){try{var s=localStorage.getItem('theme');var t=s||(window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.dataset.theme=t;}catch(e){}})();`;
 
